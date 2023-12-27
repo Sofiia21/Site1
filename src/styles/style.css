@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+#log{
+    position: relative;
+    left: 50px;
+    top: 3px;
+}
+#image{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    left:350px;
+    top: 3px;
+}
+#number{
+    position: relative;
+    left:460px;
+    bottom: 30px;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+#colum{
+    background-color: grey;
+    position: relative;
+    left: 550px;
+    bottom: 75px;
+    width: 10px;
+    
+}
+.tab-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+.tab-menu li {
+    position: relative;
+    left: 740px;
+    bottom: 90px;
+    padding: 15px 50px; 
+    border: 1px solid #ccc; 
+    margin-right: 2px; 
+    cursor: pointer; 
+    background-color: #f3f3f3; 
+  }
+.tab-menu li:hover {
+    background-color: #e9e9e9; 
+  }
+.tab-menu li:last-child {
+    margin-right: 0; 
+  }
+#logo{
+    position: relative;
+    height: 20px;
+    width: 120px;
+    left: 50px;
+    bottom: 70px;
+}
+
+.navigation-menu {
+    background: white;
+    color:sienna; 
+    font-family: 'Rubik'; 
+    width: 1200px;
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+  }
+  
+  .navigation-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center; 
+  }
+  
+  .navigation-menu li {
+    padding: 10px 15px; 
+    cursor: pointer;
+  }
+  
+  .language-switcher {
+    margin-left: auto; 
+  }
+  .language-switcher span {
+    margin: 0 5px; 
+  }
+  
+  .search-icon{
+    width: 10px;
+    height: 10px; 
+    margin-right: 10px;
+    position: relative;
+    bottom: 13px;
+    padding-left: 10px; 
+  }
+#tucson{
+  position: relative;
+  width: 1450px;
+  height: 650px;
+  bottom: 100px;
+  left: 50px;
+
+}
+.navigation-bar {
+  background-color: #2E2E7A; 
+  color: white; 
+  position: relative;
+  bottom: 50px;
+}
+
+.navigation-bar ul {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+  align-items: center; 
+}
+
+.navigation-bar li {
+  padding: 20px 70px; 
+  cursor: pointer; 
+  display: flex; 
+  align-items: center; 
+}
+
+.navigation-bar li:hover {
+  background-color: #1C1C5E; 
+}
+.icon-price{
+  margin-right: 8px; 
+  margin-left: 8px;
+  width: 40px;
+  height: 40px;
+}
+.icon-truck{
+  margin-right: 8px; 
+  margin-left: 8px;
+  width: 40px;
+  height: 40px;
+}
+.icon-drive{
+  margin-right: 8px; 
+  margin-left: 8px;
+  width: 40px;
+  height: 40px;
+}
+.icon-diller{
+  margin-right: 8px; 
+  margin-left: 8px;
+  width: 40px;
+  height: 40px;
+}
+.icon-credit{
+  margin-right: 8px; 
+  margin-left: 8px;
+  width: 40px;
+  height: 40px;
+}
+.news-section {
+  text-align: center;
+  background-image: url('C:\Users\sayfu\OneDrive\Рабочий стол\project_\src\assets\images\new-york-statue-of-liberty.avif');
+  background-size: cover;
+  padding: 50px 0;
+  
+}
+
+.news-section h2 {
+  margin-bottom: 50px;
+  color: #fff; 
+}
+
+.news-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px; 
+}
+
+.news-card {
+  background-color: rgba(255, 255, 255, 0.5); 
+  color:rgb(137, 107, 69);
+  width: 500px; 
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.news-card .date {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.news-card .title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.news-card .details {
+  color: #0062cc;
+  text-decoration: none; 
+  font-weight: bold;
+}
+
+.news-card .details:hover {
+  text-decoration: underline; 
+}
+
+.more-news {
+  background-color: #0062cc; 
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.more-news:hover {
+  background-color: #004a99; 
+
+}
+h2{
+  text-align: center;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+  padding: 10px;
+  position: relative;
+  top: 200px;
+  left: 150px;
+  transform: translateY(-50%);
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+  height: 200px;
+  width: 400px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  width: 80px; 
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 0;
+  color: #333;
+}
+.footer {
+  background-color: #000000; 
+  color: white; 
+  padding: 20px 0; 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 10%; 
+}
+
+.footer-logo {
+  width: 45px;
+  height: 35px;
+}
+
+.footer-links,
+.footer-social {
+  display: flex;
+  gap: 20px; 
+}
+
+.footer-links a,
+.footer-social a {
+  color: white; 
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  text-decoration: underline; 
+}
+
+.footer-disclaimer {
+  font-size: 0.75em; 
+  text-align: center;
+  padding-top: 10px; 
+}
+
+
+.login-container {
+  width: 100%;
+  max-width: 340px;
+  margin: auto;
+  
+}
+
+.login-form {
+  background-color: #ffffff; 
+  padding: 20px;
+  border-radius: 10px; 
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.user-icon img {
+  width: 150px; 
+  height: 150px; 
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-container input {
+  width: calc(100% - 20px); 
+  padding: 10px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-container button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5c6bc0;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button-container button:hover {
+  background-color: #3f51b5; 
+}
+.slider {
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+  align-items: center;
+  bottom: 100px;
+}
+
+.slick-slide {
+  margin: 0 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+  display: block;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+}
+
+.slick-dots {
+  bottom: 10px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-dot {
+  margin: 0 5px;
+}
