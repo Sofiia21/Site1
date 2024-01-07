@@ -128,31 +128,8 @@
 .navigation-bar li:hover {
   background-color: #1C1C5E; 
 }
-.icon-price{
-  margin-right: 8px; 
-  margin-left: 8px;
-  width: 40px;
-  height: 40px;
-}
-.icon-truck{
-  margin-right: 8px; 
-  margin-left: 8px;
-  width: 40px;
-  height: 40px;
-}
-.icon-drive{
-  margin-right: 8px; 
-  margin-left: 8px;
-  width: 40px;
-  height: 40px;
-}
-.icon-diller{
-  margin-right: 8px; 
-  margin-left: 8px;
-  width: 40px;
-  height: 40px;
-}
-.icon-credit{
+
+.icon-price, .icon-truck, .icon-drive, .icon-diller, .icon-credit {
   margin-right: 8px; 
   margin-left: 8px;
   width: 40px;
@@ -160,8 +137,6 @@
 }
 .news-section {
   text-align: center;
-  background-image: url('C:\Users\sayfu\OneDrive\Рабочий стол\project_\src\assets\images\new-york-statue-of-liberty.avif');
-  background-size: cover;
   padding: 50px 0;
   
 }
@@ -306,7 +281,6 @@ h3 {
   width: 100%;
   max-width: 340px;
   margin: auto;
-  
 }
 
 .login-form {
@@ -381,4 +355,129 @@ h3 {
 
 .slick-dot {
   margin: 0 5px;
+}
+@media screen and (max-width: 720px) {
+  #log {
+      left: 10px; 
+  }
+  #image {
+      left: 90px; 
+  }
+  #number {
+      left: 200px;
+      bottom: 25px; 
+      width: 100px; 
+      font-size: 15px;
+     
+  }
+  #colum {
+      left: 300px; 
+      bottom: 60px; 
+  }
+  .tab-menu ul {
+      flex-direction: column; 
+      padding: 10px; 
+      position: relative;
+      right: 400px;
+      width: 370px;
+  }
+ 
+.navigation-menu {
+    width: 100%;
+    bottom: 50px; 
+    left: 0; 
+    font-size: 14px; 
+}
+
+.navigation-menu ul {
+    flex-direction: column; 
+}
+
+.navigation-menu li {
+    padding: 5px 10px; 
+}
+
+.language-switcher {
+    margin-left: 10px; 
+}
+
+.search-icon {
+    bottom: 6px; 
+    padding-left: 5px; 
+}
+.navigation-bar {
+  bottom: 20px; 
+}
+
+.navigation-bar ul {
+  flex-direction: column; 
+}
+
+.navigation-bar li {
+  padding: 10px 30px; 
+}
+
+.icon-price, .icon-truck, .icon-drive, .icon-diller, .icon-credit {
+  width: 30px; 
+  height: 30px;
+}
+.news-container {
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  .news-section{
+    position: relative;
+    left: 40px;
+  }
+
+  .news-card {
+    width: 90%; 
+    padding: 20px; 
+  }
+
+  .news-card .date {
+    font-size: 20px; 
+  }
+  .news-card .title {
+    font-size: 16px; 
+  }
+  .more-news{
+    position: relative;
+    left: 280px;
+    bottom: 40px;
+  }
+  .cards-container {
+    grid-template-columns: 1fr; 
+    top: 300px; 
+    left: 30px;
+    padding: 5px;
+  }
+
+  .card {
+    width: 650px; 
+    height: 10px; 
+  }
+
+  .icon {
+    width: 60px;
+  }
+  .footer-content {
+    flex-direction: column;
+    padding: 0 5%;
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-social{
+    position: relative;
+    left: 450px;
+    bottom: 200px;
+  }
+  .footer-disclaimer {
+    font-size: 15px; 
+  }
 }
